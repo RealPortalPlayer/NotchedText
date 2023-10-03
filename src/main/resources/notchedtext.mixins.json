@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.portalplayer.notchedtext.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "SplashTextResourceSupplierMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

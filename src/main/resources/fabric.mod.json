@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "notchedtext",
+  "version": "${version}",
+  "name": "NotchedText",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/portalplayer/NotchedText"
+  },
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "mixins": [
+    "notchedtext.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
